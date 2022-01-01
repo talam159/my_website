@@ -5,13 +5,14 @@ h1{
     font-size: 50px;
 }
 .name-highlight{
-    color:orange
+    color: #1F4395;
 }
 .landing{
     width: 40%;
     float: left;
     margin-left: 6.5%;
     padding-left: 2%;
+    /* margin: 5%; */
 }
 .landing img{
     width: 80%;
