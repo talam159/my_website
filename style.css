@@ -1,11 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
 .name-highlight{
-    color: #1F4395;
+    color: #045fa6;
 }
 .landing{
     width: 40%;
@@ -13,11 +14,15 @@ h1{
     margin-left: 6.5%;
     padding-left: 2%;
     /* margin: 5%; */
+    text-align: justify;
+  text-justify: inter-word;
 }
 .landing img{
     width: 80%;
 
     float: right;
+    margin-bottom: -10px;
+    
 }
 .test{
     margin: 10px 20px ;
@@ -28,8 +33,16 @@ h1{
     justify-content: space-evenly;
     /* padding: 50px 0px 0px 0px; */
     background-color:#e5e5e5;
+    align-items: flex-end;
 }
 #logo{
     width: 20%;
     float: left;
+}
+h1{
+    margin-bottom: 10px;
+} 
+#nav-bar{
+    margin-bottom: 60px;
+    padding-top: 20px;
 }
