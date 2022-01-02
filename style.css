@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 50px;
+    width: 90%;
 }
 .name-highlight{
     color: #045fa6;
@@ -18,10 +19,11 @@ h1{
   text-justify: inter-word;
 }
 .landing img{
-    width: 80%;
+    width: 85%;
 
     float: right;
     margin-bottom: -10px;
+    padding-right: 100px;
     
 }
 .test{
@@ -30,8 +32,8 @@ h1{
 .first-section{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    /* padding: 50px 0px 0px 0px; */
+    /* justify-content: space-evenly; */
+     padding: 20px 0px 0px 0px; 
     background-color:#e5e5e5;
     align-items: flex-end;
 }
@@ -45,4 +47,18 @@ h1{
 #nav-bar{
     margin-bottom: 60px;
     padding-top: 20px;
+}
+.hire-button{
+    background-color: #045fa6;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    /* align-items: center; */
 }
